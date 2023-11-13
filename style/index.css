@@ -1,0 +1,23 @@
+.div1 {
+ width:100%;
+}
+.my-class {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  height: 100%;
+}
+.my-class li a:hover {
+  background-color: rgb(200, 253, 175);
+}
+.input {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+  align-items: center;
+  background: gray;
+}
+.overview {
+  height: 180px;
+  background-color:rgb(160, 162, 163);
+}
