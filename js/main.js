@@ -1,3 +1,14 @@
+// welcome massage -----!!
+var messageContainer = document.getElementById("welcomeMassege");
+var firstMassege = document.getElementById("firstMassege");
+  document.onreadystatechange = function() {
+    if (document.readyState === "complete") {
+       setTimeout(() => {
+        messageContainer.style.display = "none";
+       }, 2000);
+    }
+  };
+// search by imge--------!!
 // popup or popup close button------!!
   function selectImg() {
     var popup = document.getElementById("popup");
@@ -13,5 +24,3 @@
       bodyOverflowHidden.style.overflowY ="scroll";
     }
   }
-
-
